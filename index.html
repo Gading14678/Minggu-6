@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Layout dengan Elemen Semantik</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/image/gambar1.webp" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Selamat Datang</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="home" class="profile card">
+          <h2>Home</h2>
+          <header>
+            <figure>
+              <img src="assets/image/Foto.JPG" alt="" />
+            </figure>
+            <h3 align="center">Saya adalah pecinta musik</h3>
+          </header>
+
+          <section>
+            <div style="max-width: 600px; margin: 3em auto">
+              <table border="1" width="100%">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Pengalaman</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <ul>
+                        <li>Menguasai berbagai jenis gaya renang</li>
+                        <li>Unggul dalam start renang</li>
+                        <li>Mempunyai tekad kuat untuk menang</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Kejuaraan renang Antar Perguruan Tinggi</li>
+                        <li>Timnas PON Papua 2021</li>
+                        <li>Mewakili Indonesia Lomba di Austria</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </article>
+
+        <article id="contactme" class="card">
+          <div>
+            <h2>Contact Me</h2>
+            <form>
+              <li><i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp : 087770059065</li>
+              <li>Email: gadingtambayun111213@gmail.com</li>
+              <li><a href="https://www.instagram.com/gadchong_/">Instagram</a></li>
+
+              <label for="email">Email</label><br />
+              <input type="email" name="email" placeholder="alamat email" required />
+              <br />
+              <label for="message">Pesan</label><br />
+              <textarea name="message" placeholder="Tulis pesan anda..." rows="10" cols="100" required></textarea>
+              <br />
+              <br />
+              <input type="submit" value="Kirim" />
+            </form>
+          </div>
+        </article>
+
+        <article id="aboutme" class="card">
+          <h2>About Me</h2>
+          <p>Hi, saya Gading Anom berasal dari Semarang.Saya adalah atlet renang Indonesia.</p>
+          <p>Skill saya adalah saya unggul dalam start renang dan mampu menguasai semua gaya.</p>
+          <p>Pengalaman saya pernah mewakili Indonesia lomba renang di Austria.</p>
+          <p>
+            <video width="320" height="240" controls>
+              <source src="assets/video/Video Renang.mp4" type="video/webm" />
+            </video>
+          </p>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Profile Saya</h2>
+            <figure>
+              <img src="assets/image/Foto.JPG" />
+            </figure>
+          </header>
+          <section>
+            <h3>Informasi Lainnya</h3>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Gading Anom Ajitambayun</td>
+              </tr>
+              <tr>
+                <th>Tanggal Lahir</th>
+                <td>07 Februari 2004</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Semarang, Jawa Tengah</td>
+              </tr>
+              <tr>
+                <th>Hobi</th>
+                <td>Berenang</td>
+              </tr>
+              <tr>
+                <th>Jabatan</th>
+                <td>Mahasiswa</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>gadingtambayun111213</td>
+                <td>@gmail.com</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Belajar Dasar Pemrograman Web &copy; 2022, Gading Anom </p>
+    </footer>
+  </body>
+</html>
